@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="load_page.css">
+  <title>Loading...</title>
+</head>
+
+<body>
+  <img class="loading_page__logo" src="imgs/image 14.png">
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        document.body.classList.add("hidden");
+        window.location.href = "menu_page.html";
+      }, 3000);
+    });
+  </script>
+</body>
+
+</html>
